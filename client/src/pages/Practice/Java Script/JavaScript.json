@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "question": "What is the output of the following code?\n\nconsole.log(typeof null);",
+    "options1": "null",
+    "options2": "object",
+    "options3": "undefined",
+    "options4": "number",
+    "answer": "object"
+  },
+  {
+    "id": 2,
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options1": "dim",
+    "options2": "var",
+    "options3": "int",
+    "options4": "let",
+    "answer": "var"
+  },
+  {
+    "id": 3,
+    "question": "What will be printed to the console?\n\nconsole.log(1 + '1');",
+    "options1": "11",
+    "options2": "2",
+    "options3": "11",
+    "options4": "undefined",
+    "answer": "11"
+  },
+  {
+    "id": 4,
+    "question": "Which built-in method removes the last element from an array and returns that element?",
+    "options1": "pop()",
+    "options2": "last()",
+    "options3": "shift()",
+    "options4": "unshift()",
+    "answer": "pop()"
+  },
+  {
+    "id": 5,
+    "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+    "options1": "<script src='script.js'>",
+    "options2": "<script href='script.js'>",
+    "options3": "<script name='script.js'>",
+    "options4": "<script import='script.js'>",
+    "answer": "<script src='script.js'>"
+  },
+  {
+    "id": 6,
+    "question": "Which function is used to parse a JSON string?",
+    "options1": "parseJSON()",
+    "options2": "stringify()",
+    "options3": "JSON.parse()",
+    "options4": "JSON.stringify()",
+    "answer": "JSON.parse()"
+  },
+  {
+    "id": 7,
+    "question": "What is the output of the following code?\n\nconsole.log(3 === '3');",
+    "options1": "true",
+    "options2": "false",
+    "options3": "undefined",
+    "options4": "TypeError",
+    "answer": "false"
+  },
+  {
+    "id": 8,
+    "question": "Which built-in method adds one or more elements to the end of an array and returns the new length of the array?",
+    "options1": "push()",
+    "options2": "concat()",
+    "options3": "join()",
+    "options4": "slice()",
+    "answer": "push()"
+  },
+  {
+    "id": 9,
+    "question": "What is the correct way to write a JavaScript array?",
+    "options1": "[1, 2, 3, 4]",
+    "options2": "{1, 2, 3, 4}",
+    "options3": "(1, 2, 3, 4)",
+    "options4": "<1, 2, 3, 4>",
+    "answer": "[1, 2, 3, 4]"
+  },
+  {
+    "id": 10,
+    "question": "What does the '!== operator do in JavaScript?",
+    "options1": "Checks for inequality without type conversion",
+    "options2": "Checks for inequality with type conversion",
+    "options3": "Checks for equality without type conversion",
+    "options4": "Checks for equality with type conversion",
+    "answer": "Checks for inequality without type conversion"
+  },
+  {
+    "id": 11,
+    "question": "Which built-in method returns the character at the specified index from a string?",
+    "options1": "charAt()",
+    "options2": "charCodeAt()",
+    "options3": "indexAt()",
+    "options4": "indexOf()",
+    "answer": "charAt()"
+  },
+  {
+    "id": 12,
+    "question": "What is the output of the following code?\n\nconsole.log(0.1 + 0.2 === 0.3);",
+    "options1": "true",
+    "options2": "false",
+    "options3": "undefined",
+    "options4": "TypeError",
+    "answer": "false"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is not a valid JavaScript data type?",
+    "options1": "string",
+    "options2": "number",
+    "options3": "boolean",
+    "options4": "array",
+    "answer": "array"
+  },
+  {
+    "id": 14,
+    "question": "What is the purpose of the 'document.getElementById()' method in JavaScript?",
+    "options1": "To get elements by class name",
+    "options2": "To get elements by tag name",
+    "options3": "To get elements by ID",
+    "options4": "To get elements by name",
+    "answer": "To get elements by ID"
+  },
+  {
+    "id": 15,
+    "question": "What is the correct way to write a JavaScript comment?",
+    "options1": "// This is a comment",
+    "options2": "<!-- This is a comment -->",
+    "options3": "# This is a comment",
+    "options4": "/* This is a comment */",
+    "answer": "// This is a comment"
+  }
+]

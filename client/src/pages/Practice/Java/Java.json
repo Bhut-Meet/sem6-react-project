@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following option leads to the portability and security of Java?",
+    "options1": "Bytecode is executed by JVM",
+    "options2": "The applet makes the Java code secure and portable",
+    "options3": "Use of exception handling",
+    "options4": "Dynamic binding between objects",
+    "answer": "ytecode is executed by the JVM."
+  },
+  {
+    "id": 2,
+    "question": "What is the output of the following code snippet?\n\npublic class Main {\n    public static void main(String[] args) {\n        int x = 5;\n        System.out.println(x++ + ++x);\n    }\n}",
+    "options1": "10",
+    "options2": "11",
+    "options3": "12",
+    "options4": "13",
+    "answer": "12"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is not a primitive data type in Java?",
+    "options1": "int",
+    "options2": "float",
+    "options3": "char",
+    "options4": "String",
+    "answer": "String"
+  },
+  {
+    "id": 4,
+    "question": "What is the correct way to declare a constant variable in Java?",
+    "options1": "final int x = 10;",
+    "options2": "const int x = 10;",
+    "options3": "int x = 10;",
+    "options4": "static final int x = 10;",
+    "answer": "final int x = 10;"
+  },
+  {
+    "id": 5,
+    "question": "What is the output of the following code snippet?\n\npublic class Main {\n    public static void main(String[] args) {\n        String str = \"Hello World!\";\n        System.out.println(str.substring(0, 5));\n    }\n}",
+    "options1": "Hello",
+    "options2": "World",
+    "options3": "Hello World!",
+    "options4": "olleH",
+    "answer": "Hello"
+  },
+  {
+    "id": 6,
+    "question": "Which keyword is used to define a class in Java?",
+    "options1": "class",
+    "options2": "struct",
+    "options3": "interface",
+    "options4": "type",
+    "answer": "class"
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of the 'static' keyword in Java?",
+    "options1": "To specify that a variable cannot be modified",
+    "options2": "To specify that a variable is shared among all instances of the class",
+    "options3": "To specify that a variable can hold any type of data",
+    "options4": "To specify that a variable exists throughout the program's execution",
+    "answer": "To specify that a variable is shared among all instances of the class"
+  },
+  {
+    "id": 8,
+    "question": "What is the output of the following code snippet?\n\npublic class Main {\n    public static void main(String[] args) {\n        int[] arr = new int[5];\n        System.out.println(arr[0]);\n    }\n}",
+    "options1": "0",
+    "options2": "5",
+    "options3": "Garbage value",
+    "options4": "Compilation error",
+    "answer": "0"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is not a valid access modifier in Java?",
+    "options1": "private",
+    "options2": "protected",
+    "options3": "public",
+    "options4": "global",
+    "answer": "global"
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of the 'this' keyword in Java?",
+    "options1": "To refer to the current class instance",
+    "options2": "To refer to the superclass instance",
+    "options3": "To refer to the subclass instance",
+    "options4": "To refer to the current method",
+    "answer": "To refer to the current class instance"
+  },
+  {
+    "id": 11,
+    "question": "What is the output of the following code snippet?\n\npublic class Main {\n    public static void main(String[] args) {\n        int x = 5;\n        System.out.println(x > 2 ? \"Yes\" : \"No\");\n    }\n}",
+    "options1": "Yes",
+    "options2": "No",
+    "options3": "True",
+    "options4": "False",
+    "answer": "Yes"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is not a valid keyword in Java?",
+    "options1": "super",
+    "options2": "final",
+    "options3": "unsigned",
+    "options4": "break",
+    "answer": "unsigned"
+  },
+  {
+    "id": 13,
+    "question": "What is the output of the following code snippet?\n\npublic class Main {\n    public static void main(String[] args) {\n        int x = 5;\n        System.out.println(x / 2);\n    }\n}",
+    "options1": "2.5",
+    "options2": "2",
+    "options3": "2.0",
+    "options4": "2.0f",
+    "answer": "2"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following statements is true about inheritance in Java?",
+    "options1": "A subclass can inherit from multiple superclasses",
+    "options2": "A superclass can inherit from multiple subclasses",
+    "options3": "Java does not support inheritance",
+    "options4": "Java supports only single inheritance",
+    "answer": "Java supports only single inheritance"
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of the 'extends' keyword in Java?",
+    "options1": "To implement an interface",
+    "options2": "To create an instance of a class",
+    "options3": "To extend the functionality of a superclass",
+    "options4": "To define a package",
+    "answer": "To extend the functionality of a superclass"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "question": "What keyword is used to select data from a MySQL database?",
+    "options1": "PICK",
+    "options2": "SELECT",
+    "options3": "GET",
+    "options4": "FETCH",
+    "answer": "SELECT"
+  },
+  {
+    "id": 2,
+    "question": "Which clause is used to filter records in a MySQL query?",
+    "options1": "GROUP BY",
+    "options2": "WHERE",
+    "options3": "ORDER BY",
+    "options4": "HAVING",
+    "answer": "WHERE"
+  },
+  {
+    "id": 3,
+    "question": "What function is used to count the number of rows returned by a MySQL query?",
+    "options1": "COUNT()",
+    "options2": "SUM()",
+    "options3": "TOTAL()",
+    "options4": "NUM_ROWS()",
+    "answer": "COUNT()"
+  },
+  {
+    "id": 4,
+    "question": "What keyword is used to insert data into a MySQL table?",
+    "options1": "ADD",
+    "options2": "PUT",
+    "options3": "INSERT",
+    "options4": "UPDATE",
+    "answer": "INSERT"
+  },
+  {
+    "id": 5,
+    "question": "Which statement is used to delete records from a MySQL table?",
+    "options1": "REMOVE",
+    "options2": "CLEAR",
+    "options3": "DELETE",
+    "options4": "DROP",
+    "answer": "DELETE"
+  },
+  {
+    "id": 6,
+    "question": "What keyword is used to update data in a MySQL table?",
+    "options1": "CHANGE",
+    "options2": "MODIFY",
+    "options3": "UPDATE",
+    "options4": "ALTER",
+    "answer": "UPDATE"
+  },
+  {
+    "id": 7,
+    "question": "Which MySQL function is used to find the highest value in a column?",
+    "options1": "MAX()",
+    "options2": "TOP()",
+    "options3": "HIGHEST()",
+    "options4": "MAX_VALUE()",
+    "answer": "MAX()"
+  },
+  {
+    "id": 8,
+    "question": "What clause is used to sort the result set in a MySQL query?",
+    "options1": "GROUP BY",
+    "options2": "ORDER BY",
+    "options3": "SORT BY",
+    "options4": "ARRANGE BY",
+    "answer": "ORDER BY"
+  },
+  {
+    "id": 9,
+    "question": "Which MySQL function is used to find the average value in a column?",
+    "options1": "TOTAL()",
+    "options2": "AVG()",
+    "options3": "AVERAGE()",
+    "options4": "MEAN()",
+    "answer": "AVG()"
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of the MySQL WHERE clause?",
+    "options1": "To group records",
+    "options2": "To filter records",
+    "options3": "To sort records",
+    "options4": "To join tables",
+    "answer": "To filter records"
+  },
+  {
+    "id": 11,
+    "question": "Which MySQL function is used to find the lowest value in a column?",
+    "options1": "MIN()",
+    "options2": "BOTTOM()",
+    "options3": "LOWEST()",
+    "options4": "MIN_VALUE()",
+    "answer": "MIN()"
+  },
+  {
+    "id": 12,
+    "question": "What clause is used to group records in a MySQL query?",
+    "options1": "ORDER BY",
+    "options2": "GROUP BY",
+    "options3": "SORT BY",
+    "options4": "ARRANGE BY",
+    "answer": "GROUP BY"
+  },
+  {
+    "id": 13,
+    "question": "What is the purpose of the MySQL HAVING clause?",
+    "options1": "To filter records",
+    "options2": "To group records",
+    "options3": "To sort records",
+    "options4": "To join tables",
+    "answer": "To filter records"
+  },
+  {
+    "id": 14,
+    "question": "What is the default port number for MySQL?",
+    "options1": "8080",
+    "options2": "3306",
+    "options3": "5432",
+    "options4": "27017",
+    "answer": "3306"
+  },
+  {
+    "id": 15,
+    "question": "Which MySQL function is used to concatenate two or more strings?",
+    "options1": "JOIN()",
+    "options2": "CONCAT()",
+    "options3": "MERGE()",
+    "options4": "COMBINE()",
+    "answer": "CONCAT()"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "question": "Which keyword is used to declare a class in C#?",
+    "options1": "class",
+    "options2": "struct",
+    "options3": "interface",
+    "options4": "void",
+    "answer": "class"
+  },
+  {
+    "id": 2,
+    "question": "What is the output of the following code snippet?\n\nint x = 5;\nConsole.WriteLine(x++ + ++x);",
+    "options1": "10",
+    "options2": "11",
+    "options3": "12",
+    "options4": "13",
+    "answer": "12"
+  },
+  {
+    "id": 3,
+    "question": "What is the correct way to declare a constant in C#?",
+    "options1": "const int x = 10;",
+    "options2": "int constant x = 10;",
+    "options3": "final int x = 10;",
+    "options4": "static int x = 10;",
+    "answer": "const int x = 10;"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is used to perform input and output operations in C#?",
+    "options1": "System.IO",
+    "options2": "System.Data",
+    "options3": "System.Net",
+    "options4": "System.Console",
+    "answer": "System.Console"
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of the 'using' statement in C#?",
+    "options1": "To import namespaces",
+    "options2": "To define a class",
+    "options3": "To declare variables",
+    "options4": "To create objects",
+    "answer": "To import namespaces"
+  },
+  {
+    "id": 6,
+    "question": "What is the output of the following code?\n\nstring str = \"Hello World!\";\nConsole.WriteLine(str.Substring(0, 5));",
+    "options1": "Hello",
+    "options2": "World",
+    "options3": "Hello World!",
+    "options4": "olleH",
+    "answer": "Hello"
+  },
+  {
+    "id": 7,
+    "question": "Which operator is used for string concatenation in C#?",
+    "options1": "+",
+    "options2": "-",
+    "options3": "*",
+    "options4": "/",
+    "answer": "+"
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of the 'static' keyword in C#?",
+    "options1": "To specify that a variable cannot be modified",
+    "options2": "To specify that a variable is shared among all instances of the class",
+    "options3": "To specify that a variable can hold any type of data",
+    "options4": "To specify that a variable exists throughout the program's execution",
+    "answer": "To specify that a variable is shared among all instances of the class"
+  },
+  {
+    "id": 9,
+    "question": "Which keyword is used to define a method in C#?",
+    "options1": "function",
+    "options2": "method",
+    "options3": "void",
+    "options4": "return",
+    "answer": "void"
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of the 'this' keyword in C#?",
+    "options1": "To refer to the current class instance",
+    "options2": "To refer to the superclass instance",
+    "options3": "To refer to the subclass instance",
+    "options4": "To refer to the current method",
+    "answer": "To refer to the current class instance"
+  },
+  {
+    "id": 11,
+    "question": "What is the output of the following code?\n\nint[] arr = new int[5];\nConsole.WriteLine(arr[0]);",
+    "options1": "0",
+    "options2": "5",
+    "options3": "null",
+    "options4": "Compilation error",
+    "answer": "0"
+  },
+  {
+    "id": 12,
+    "question": "What is the purpose of the 'public' access modifier in C#?",
+    "options1": "To restrict access to members of a class",
+    "options2": "To allow access from any assembly",
+    "options3": "To restrict access to derived classes",
+    "options4": "To hide implementation details",
+    "answer": "To allow access from any assembly"
+  },
+  {
+    "id": 13,
+    "question": "What is the output of the following code?\n\nint x = 5;\nif (x > 2)\n{\n    Console.WriteLine(\"Hello\");\n}",
+    "options1": "Hello",
+    "options2": "World",
+    "options3": "Hello World!",
+    "options4": "No output",
+    "answer": "Hello"
+  },
+  {
+    "id": 14,
+    "question": "What is the purpose of the 'new' keyword in C#?",
+    "options1": "To create an instance of a class",
+    "options2": "To define a constant",
+    "options3": "To declare a method",
+    "options4": "To refer to the current class instance",
+    "answer": "To create an instance of a class"
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of the 'virtual' keyword in C#?",
+    "options1": "To define a virtual function",
+    "options2": "To define a pure virtual function",
+    "options3": "To enable dynamic polymorphism",
+    "options4": "To enable static polymorphism",
+    "answer": "To enable dynamic polymorphism"
+  }
+]

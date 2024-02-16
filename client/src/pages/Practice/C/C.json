@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "question": "What is the purpose of the 'printf' function in C?",
+    "options1": "To print formatted output to the standard output device (such as the console)",
+    "options2": "To read input from the user",
+    "options3": "To allocate memory dynamically",
+    "options4": "To perform mathematical calculations",
+    "answer": "To print formatted output to the standard output device (such as the console)"
+  },
+  {
+    "id": 2,
+    "question": "Which header file is required to use functions like 'malloc' and 'free'?",
+    "options1": "<stdio.h>",
+    "options2": "<stdlib.h>",
+    "options3": "<math.h>",
+    "options4": "<string.h>",
+    "answer": "<stdlib.h>"
+  },
+  {
+    "id": 3,
+    "question": "What is the syntax for declaring a pointer variable in C?",
+    "options1": "int ptr;",
+    "options2": "ptr int;",
+    "options3": "int *ptr;",
+    "options4": "ptr *int;",
+    "answer": "int *ptr;"
+  },
+  {
+    "id": 4,
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\nint main() {\n    int a = 5;\n    int b = 2;\n    printf(\"%d\", a++ - --b);\n    return 0;\n}",
+    "options1": "5",
+    "options2": "4",
+    "options3": "3",
+    "options4": "6",
+    "answer": "4"
+  },
+  {
+    "id": 5,
+    "question": "Which keyword is used to define a constant in C?",
+    "options1": "constant",
+    "options2": "final",
+    "options3": "const",
+    "options4": "define",
+    "answer": "const"
+  },
+  {
+    "id": 6,
+    "question": "What does the 'sizeof' operator return in C?",
+    "options1": "Size of a variable in bytes",
+    "options2": "Size of a variable in bits",
+    "options3": "Size of a data type in bytes",
+    "options4": "Size of a data type in bits",
+    "answer": "Size of a data type in bytes"
+  },
+  {
+    "id": 7,
+    "question": "What is the correct way to comment a single line of code in C?",
+    "options1": "// This is a comment",
+    "options2": "<-- This is a comment -->",
+    "options3": "# This is a comment",
+    "options4": "/* This is a comment */",
+    "answer": "// This is a comment"
+  },
+  {
+    "id": 8,
+    "question": "Which operator is used to access the value stored at a memory address in C?",
+    "options1": "*",
+    "options2": "&",
+    "options3": "!",
+    "options4": "->",
+    "answer": "*"
+  },
+  {
+    "id": 9,
+    "question": "What is the result of the expression '5 + 3 * 2' in C?",
+    "options1": "16",
+    "options2": "11",
+    "options3": "13",
+    "options4": "10",
+    "answer": "11"
+  },
+  {
+    "id": 10,
+    "question": "Which function is used to read a single character from the standard input in C?",
+    "options1": "scanf",
+    "options2": "getchar",
+    "options3": "gets",
+    "options4": "read",
+    "answer": "getchar"
+  },
+  {
+    "id": 11,
+    "question": "What is the purpose of the 'return' statement in C?",
+    "options1": "To terminate the program",
+    "options2": "To exit from a loop",
+    "options3": "To skip a statement",
+    "options4": "To return a value from a function",
+    "answer": "To return a value from a function"
+  },
+  {
+    "id": 12,
+    "question": "Which function is used to compare two strings in C?",
+    "options1": "strcmp",
+    "options2": "strcat",
+    "options3": "strncmp",
+    "options4": "strcpy",
+    "answer": "strcmp"
+  },
+  {
+    "id": 13,
+    "question": "In C, what is the storage class of a global variable by default?",
+    "options1": "auto",
+    "options2": "register",
+    "options3": "static",
+    "options4": "extern",
+    "answer": "static"
+  },
+  {
+    "id": 14,
+    "question": "Which loop is known as an entry-controlled loop in C?",
+    "options1": "for loop",
+    "options2": "while loop",
+    "options3": "do-while loop",
+    "options4": "if-else loop",
+    "answer": "for loop"
+  },
+  {
+    "id": 15,
+    "question": "What is the correct way to declare an array in C?",
+    "options1": "int arr[];",
+    "options2": "arr[] int;",
+    "options3": "int[] arr;",
+    "options4": "array arr[];",
+    "answer": "int arr[];"
+  },
+  {
+    "id": 16,
+    "question": "Which operator is used to determine the size of a data type in C?",
+    "options1": "&",
+    "options2": "*",
+    "options3": "sizeof",
+    "options4": "sizeof()",
+    "answer": "sizeof"
+  },
+  {
+    "id": 17,
+    "question": "What is the purpose of the 'break' statement in C?",
+    "options1": "To terminate the program",
+    "options2": "To exit from a loop",
+    "options3": "To skip a statement",
+    "options4": "To return a value from a function",
+    "answer": "To exit from a loop"
+  },
+  {
+    "id": 18,
+    "question": "Which keyword is used to define a structure in C?",
+    "options1": "class",
+    "options2": "struct",
+    "options3": "typedef",
+    "options4": "structdef",
+    "answer": "struct"
+  },
+  {
+    "id": 19,
+    "question": "What is the output of the following code snippet?\n\n#include <stdio.h>\nint main() {\n    int x = 5;\n    printf(\"%d\", ++x * x--);\n    return 0;\n}",
+    "options1": "20",
+    "options2": "30",
+    "options3": "25",
+    "options4": "15",
+    "answer": "30"
+  },
+  {
+    "id": 20,
+    "question": "Which function is used to open a file in C?",
+    "options1": "open",
+    "options2": "fopen",
+    "options3": "openfile",
+    "options4": "fileopen",
+    "answer": "fopen"
+  },
+  {
+    "id": 21,
+    "question": "What is the purpose of the 'continue' statement in C?",
+    "options1": "To terminate the program",
+    "options2": "To exit from a loop",
+    "options3": "To skip a statement",
+    "options4": "To return a value from a function",
+    "answer": "To skip a statement"
+  },
+  {
+    "id": 22,
+    "question": "What does the 'fprintf' function do in C?",
+    "options1": "Reads formatted data from a file",
+    "options2": "Writes formatted data to a file",
+    "options3": "Reads formatted data from the standard input",
+    "options4": "Writes formatted data to the standard output",
+    "answer": "Writes formatted data to a file"
+  },
+  {
+    "id": 23,
+    "question": "What is the result of the expression 'sizeof(char)' in C?",
+    "options1": "1",
+    "options2": "2",
+    "options3": "4",
+    "options4": "8",
+    "answer": "1"
+  },
+  {
+    "id": 24,
+    "question": "Which function is used to convert a string to an integer in C?",
+    "options1": "atoi",
+    "options2": "itoa",
+    "options3": "strtoi",
+    "options4": "intToStr",
+    "answer": "atoi"
+  },
+  {
+    "id": 25,
+    "question": "What is the purpose of the 'free' function in C?",
+    "options1": "To print formatted output to the standard output device (such as the console)",
+    "options2": "To read input from the user",
+    "options3": "To deallocate memory dynamically",
+    "options4": "To perform mathematical calculations",
+    "answer": "To deallocate memory dynamically"
+  },
+  {
+    "id": 26,
+    "question": "Which function is used to close a file in C?",
+    "options1": "close",
+    "options2": "fclose",
+    "options3": "closefile",
+    "options4": "fileclose",
+    "answer": "fclose"
+  },
+  {
+    "id": 27,
+    "question": "What is the result of the expression 'sizeof(int)' in C?",
+    "options1": "1",
+    "options2": "2",
+    "options3": "4",
+    "options4": "8",
+    "answer": "4"
+  },
+  {
+    "id": 28,
+    "question": "What is the purpose of the 'void' keyword in C?",
+    "options1": "To declare an empty function",
+    "options2": "To declare a variable without a type",
+    "options3": "To specify that a function does not return any value",
+    "options4": "To specify that a variable can hold any type of data",
+    "answer": "To specify that a function does not return any value"
+  },
+  {
+    "id": 29,
+    "question": "What is the correct way to declare a function in C?",
+    "options1": "int function();",
+    "options2": "function(int);",
+    "options3": "void function();",
+    "options4": "function void();",
+    "answer": "void function();"
+  },
+  {
+    "id": 30,
+    "question": "Which operator is used to access the member of a structure in C?",
+    "options1": ".",
+    "options2": "->",
+    "options3": "*",
+    "options4": "&",
+    "answer": "."
+  },
+  {
+    "id": 31,
+    "question": "What is the result of the expression 'sizeof(float)' in C?",
+    "options1": "1",
+    "options2": "2",
+    "options3": "4",
+    "options4": "8",
+    "answer": "4"
+  },
+  {
+    "id": 32,
+    "question": "What is the purpose of the 'exit' function in C?",
+    "options1": "To terminate the program",
+    "options2": "To exit from a loop",
+    "options3": "To skip a statement",
+    "options4": "To return a value from a function",
+    "answer": "To terminate the program"
+  },
+  {
+    "id": 33,
+    "question": "What is the result of the expression 'sizeof(double)' in C?",
+    "options1": "1",
+    "options2": "2",
+    "options3": "4",
+    "options4": "8",
+    "answer": "8"
+  },
+  {
+    "id": 34,
+    "question": "Which keyword is used to define an enumeration in C?",
+    "options1": "enum",
+    "options2": "define",
+    "options3": "typedef",
+    "options4": "enumeration",
+    "answer": "enum"
+  },
+  {
+    "id": 35,
+    "question": "What is the purpose of the 'typedef' keyword in C?",
+    "options1": "To define a new data type",
+    "options2": "To declare a variable without a type",
+    "options3": "To specify that a function does not return any value",
+    "options4": "To specify that a variable can hold any type of data",
+    "answer": "To define a new data type"
+  },
+  {
+    "id": 36,
+    "question": "What is the purpose of the 'do-while' loop in C?",
+    "options1": "To execute a block of code as long as a condition is true",
+    "options2": "To execute a block of code at least once and then repeat it as long as a condition is true",
+    "options3": "To execute a block of code a specific number of times",
+    "options4": "To execute a block of code if a condition is true",
+    "answer": "To execute a block of code at least once and then repeat it as long as a condition is true"
+  },
+  {
+    "id": 37,
+    "question": "What is the purpose of the 'union' keyword in C?",
+    "options1": "To define a structure",
+    "options2": "To define a new data type",
+    "options3": "To define an enumeration",
+    "options4": "To define a union",
+    "answer": "To define a union"
+  },
+  {
+    "id": 38,
+    "question": "What is the purpose of the 'static' keyword in C?",
+    "options1": "To specify that a function does not return any value",
+    "options2": "To specify that a variable can hold any type of data",
+    "options3": "To specify that a variable cannot be modified",
+    "options4": "To specify that a variable exists throughout the program's execution",
+    "answer": "To specify that a variable exists throughout the program's execution"
+  },
+  {
+    "id": 39,
+    "question": "What is the purpose of the 'volatile' keyword in C?",
+    "options1": "To declare a variable without a type",
+    "options2": "To specify that a variable does not change",
+    "options3": "To specify that a variable can hold any type of data",
+    "options4": "To specify that a variable may be changed by an external process",
+    "answer": "To specify that a variable may be changed by an external process"
+  },
+  {
+    "id": 40,
+    "question": "Which keyword is used to define a pointer in C?",
+    "options1": "pointer",
+    "options2": "address",
+    "options3": "reference",
+    "options4": "typedef",
+    "answer": "typedef"
+  },
+  {
+    "id": 41,
+    "question": "What is the purpose of the 'register' keyword in C?",
+    "options1": "To specify that a variable does not change",
+    "options2": "To specify that a variable can hold any type of data",
+    "options3": "To specify that a variable exists throughout the program's execution",
+    "options4": "To specify that a variable should be stored in a CPU register for faster access",
+    "answer": "To specify that a variable should be stored in a CPU register for faster access"
+  },
+  {
+    "id": 42,
+    "question": "What is the purpose of the 'const' keyword in C?",
+    "options1": "To declare a variable without a type",
+    "options2": "To specify that a variable does not change",
+    "options3": "To specify that a variable can hold any type of data",
+    "options4": "To specify that a variable may be changed by an external process",
+    "answer": "To specify that a variable does not change"
+  },
+  {
+    "id": 43,
+    "question": "What is the purpose of the 'break' statement in C?",
+    "options1": "To terminate the program",
+    "options2": "To exit from a loop",
+    "options3": "To skip a statement",
+    "options4": "To return a value from a function",
+    "answer": "To exit from a loop"
+  },
+  {
+    "id": 44,
+    "question": "What is the purpose of the 'continue' statement in C?",
+    "options1": "To terminate the program",
+    "options2": "To exit from a loop",
+    "options3": "To skip a statement",
+    "options4": "To return a value from a function",
+    "answer": "To skip a statement"
+  },
+  {
+    "id": 45,
+    "question": "What is the purpose of the 'goto' statement in C?",
+    "options1": "To terminate the program",
+    "options2": "To exit from a loop",
+    "options3": "To skip a statement",
+    "options4": "To transfer control to a specific statement",
+    "answer": "To transfer control to a specific statement"
+  },
+  {
+    "id": 46,
+    "question": "What is the purpose of the 'NULL' keyword in C?",
+    "options1": "To specify a null character",
+    "options2": "To specify a null pointer",
+    "options3": "To specify a null value",
+    "options4": "To specify a null string",
+    "answer": "To specify a null pointer"
+  },
+  {
+    "id": 47,
+    "question": "What is the purpose of the 'const' keyword in function arguments in C?",
+    "options1": "To specify that the argument cannot be modified",
+    "options2": "To specify that the argument is optional",
+    "options3": "To specify that the argument is mandatory",
+    "options4": "To specify that the argument must be initialized",
+    "answer": "To specify that the argument cannot be modified"
+  },
+  {
+    "id": 48,
+    "question": "What is the purpose of the 'extern' keyword in C?",
+    "options1": "To specify a variable as global",
+    "options2": "To specify a variable as local",
+    "options3": "To specify a variable as static",
+    "options4": "To specify a variable as constant",
+    "answer": "To specify a variable as global"
+  },
+  {
+    "id": 49,
+    "question": "What is the purpose of the 'sizeof' operator in C?",
+    "options1": "To determine the size of a variable in bytes",
+    "options2": "To determine the size of a variable in bits",
+    "options3": "To determine the size of a data type in bytes",
+    "options4": "To determine the size of a data type in bits",
+    "answer": "To determine the size of a data type in bytes"
+  },
+  {
+    "id": 50,
+    "question": "What is the purpose of the 'memset' function in C?",
+    "options1": "To set a block of memory to a specific value",
+    "options2": "To copy a block of memory from one location to another",
+    "options3": "To compare two blocks of memory",
+    "options4": "To find the length of a string",
+    "answer": "To set a block of memory to a specific value"
+  }
+]

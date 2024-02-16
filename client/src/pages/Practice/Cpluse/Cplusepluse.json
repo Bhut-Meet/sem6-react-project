@@ -1,0 +1,137 @@
+[
+    {
+      "id": 1,
+      "question": "What is the output of the following code snippet?\n\n#include <iostream>\nint main() {\n    int x = 5;\n    std::cout << x++ << x << ++x;\n    return 0;\n}",
+      "options1": "555",
+      "options2": "567",
+      "options3": "576",
+      "options4": "657",
+      "answer": "576"
+    },
+    {
+      "id": 2,
+      "question": "Which header file is used to perform input and output operations in C++?",
+      "options1": "<iostream>",
+      "options2": "<stdio.h>",
+      "options3": "<fstream>",
+      "options4": "<cstdlib>",
+      "answer": "<iostream>"
+    },
+    {
+      "id": 3,
+      "question": "What does the 'new' operator do in C++?",
+      "options1": "Allocates memory for a variable",
+      "options2": "Deallocates memory for a variable",
+      "options3": "Initializes a variable",
+      "options4": "Assigns a value to a variable",
+      "answer": "Allocates memory for a variable"
+    },
+    {
+      "id": 4,
+      "question": "What is the correct syntax for a single-line comment in C++?",
+      "options1": "// This is a comment",
+      "options2": "<!-- This is a comment -->",
+      "options3": "# This is a comment",
+      "options4": "/* This is a comment */",
+      "answer": "// This is a comment"
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of the 'using namespace std;' statement in C++?",
+      "options1": "To import the standard input/output functions",
+      "options2": "To define a namespace for a class",
+      "options3": "To declare a variable",
+      "options4": "To avoid using the 'std::' prefix for standard library objects",
+      "answer": "To avoid using the 'std::' prefix for standard library objects"
+    },
+    {
+      "id": 6,
+      "question": "What is the result of the expression 'sizeof(char)' in C++?",
+      "options1": "1",
+      "options2": "2",
+      "options3": "4",
+      "options4": "8",
+      "answer": "1"
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of the 'endl' manipulator in C++?",
+      "options1": "To insert a newline character",
+      "options2": "To flush the output buffer",
+      "options3": "To skip to the next line",
+      "options4": "To print an end-of-line marker",
+      "answer": "To insert a newline character and flush the output buffer"
+    },
+    {
+      "id": 8,
+      "question": "Which operator is used to access the member of a class in C++?",
+      "options1": ".",
+      "options2": "->",
+      "options3": "*",
+      "options4": "&",
+      "answer": "."
+    },
+    {
+      "id": 9,
+      "question": "What is the output of the following code snippet?\n\n#include <iostream>\nint main() {\n    int x = 10;\n    if (x > 5) {\n        std::cout << \"Hello\";\n    }\n    else {\n        std::cout << \"World\";\n    }\n    return 0;\n}",
+      "options1": "Hello",
+      "options2": "World",
+      "options3": "HelloWorld",
+      "options4": "No output",
+      "answer": "Hello"
+    },
+    {
+      "id": 10,
+      "question": "Which keyword is used to declare a class in C++?",
+      "options1": "class",
+      "options2": "struct",
+      "options3": "typedef",
+      "options4": "private",
+      "answer": "class"
+    },
+    {
+      "id": 11,
+      "question": "What is the correct way to declare a pointer in C++?",
+      "options1": "int *ptr;",
+      "options2": "ptr int;",
+      "options3": "int ptr;",
+      "options4": "pointer int;",
+      "answer": "int *ptr;"
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of the 'const' keyword in C++?",
+      "options1": "To declare a constant",
+      "options2": "To define a variable",
+      "options3": "To declare a function",
+      "options4": "To specify a namespace",
+      "answer": "To declare a constant"
+    },
+    {
+      "id": 13,
+      "question": "What is the output of the following code snippet?\n\n#include <iostream>\nint main() {\n    int arr[] = {1, 2, 3};\n    std::cout << arr[3];\n    return 0;\n}",
+      "options1": "1",
+      "options2": "2",
+      "options3": "3",
+      "options4": "Garbage value",
+      "answer": "Garbage value"
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of the 'virtual' keyword in C++?",
+      "options1": "To define a virtual function",
+      "options2": "To define a pure virtual function",
+      "options3": "To enable dynamic polymorphism",
+      "options4": "To enable static polymorphism",
+      "answer": "To enable dynamic polymorphism"
+    },
+    {
+      "id": 15,
+      "question": "What is the correct way to define a constructor in C++?",
+      "options1": "void MyClass();",
+      "options2": "MyClass::MyClass();",
+      "options3": "MyClass();",
+      "options4": "constructor MyClass();",
+      "answer": "MyClass();"
+    }  
+]
