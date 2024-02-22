@@ -143,7 +143,7 @@ export default function Home() {
             Use of Programming and Scripting languages in present Time
           </div>
           <div className="mt-20 text-2xl text-white max-md:mt-10 max-md:max-w-full">
-          <div className="mb-1 text-base font-medium dark:text-white">Java Script</div>
+          <div className="mb-5 text-2xl font-medium dark:text-white">Java Script</div>
 <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
   <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
 </div>
@@ -160,8 +160,11 @@ export default function Home() {
               className="w-full aspect-[33.33] stroke-[25px] stroke-yellow-300 max-md:max-w-full"
             />
           </div>
-          <div className="mt-7 text-2xl text-white max-md:max-w-full">
+          <div className="mt-7 mb-5 text-2xl text-white max-md:max-w-full">
             Python
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
           </div>
           <div className="flex overflow-hidden relative flex-col justify-center items-start self-center pr-16 mt-7 w-full min-h-[25px] stroke-[25px] stroke-white max-md:pr-5 max-md:max-w-full">
             <img
@@ -176,8 +179,14 @@ export default function Home() {
             />
           </div>
           <div className="mt-7 text-2xl text-white max-md:max-w-full">Java</div>
-          <div className="mt-24 text-2xl text-white max-md:mt-10 max-md:max-w-full">
+          <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
+          </div>
+          <div className="mt-24 mb-5 text-2xl text-white max-md:mt-10 max-md:max-w-full">
             C#
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
           </div>
           <div className="flex overflow-hidden relative flex-col justify-center items-start self-center pr-16 mt-7 w-full min-h-[25px] stroke-[25px] stroke-white max-md:pr-5 max-md:max-w-full">
             <img
@@ -191,14 +200,20 @@ export default function Home() {
               className="max-w-full aspect-[4.55] stroke-[25px] stroke-yellow-300 w-[113px]"
             />
           </div>
-          <div className="mt-7 text-2xl text-white max-md:max-w-full">PHP</div>
+          <div className="mt-7  mb-5 text-2xl text-white max-md:max-w-full">PHP</div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
+          </div>
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/19893fc067dfc0ff13f007adbe748acdd4c343b09625d7ff07d9a55cc6096d6e?"
             className="mt-6 aspect-[3.7] stroke-[25px] stroke-green-700 w-[93px]"
           />
-          <div className="mt-8 text-2xl text-white max-md:max-w-full">
+          <div className="mt-8 mb-5 text-2xl text-white max-md:max-w-full">
             TypeScript
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
           </div>
           <div className="flex overflow-hidden relative flex-col justify-center items-start self-center pr-16 mt-5 w-full min-h-[25px] stroke-[25px] stroke-white max-md:pr-5 max-md:max-w-full">
             <img

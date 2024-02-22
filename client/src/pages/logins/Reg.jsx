@@ -38,16 +38,14 @@ export default function Reg() {
         <br />
       </div>
       <form onSubmit={RegistrationSubmit}>
-      <div className="mt-1 mb-1">
-        Full Name:
-      </div>
-      <input type="text" className="mt-2 border-2 border-red-400" onChange={(e)=> setName(e.target.value)}/>
+      <div className="mt-1 mb-1">Full Name:</div>
+      <input type="text" className="mt-2 border-2 border-red-400 w-full" onChange={(e)=> setName(e.target.value)}/>
       <div className="mt-6 mb-1">Email id:</div>
-      <input type="email" className="mt-2 border-2 border-red-400"  onChange={(e)=> setEmail(e.target.value)}/>
+      <input type="email" className="mt-2 border-2 border-red-400 w-full"  onChange={(e)=> setEmail(e.target.value)}/>
       <div className="mt-6 mb-1">Mobile No:</div>
-      <input type="text" className="mt-2 border-2 border-red-400" onChange={(e)=> setNum(e.target.value)} />
+      <input type="text" className="mt-2 border-2 border-red-400 w-full" onChange={(e)=> setNum(e.target.value)} />
       <div className="mt-6 mb-1">Password:</div>
-      <input type="text" className="mt-2 border-2 border-red-400" onChange={(e)=> setPass(e.target.value)} />
+      <input type="text" className="mt-2 border-2 border-red-400 w-full" onChange={(e)=> setPass(e.target.value)} />
       {/* <div className="mt-6 mb-1 whitespace-nowrap">Conform Password:</div> */}
       {/* <input type="text" className="mt-2 border-2 border-red-400"  onChange={(e)=> setName(e.target.value)}/> */}
       {/* <div className="justify-center items-center px-16 py-3.5 mt-20 text-white whitespace-nowrap bg-sky-500"> */}

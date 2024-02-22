@@ -13,16 +13,20 @@ export default function Header() {
             <div className="flex-auto self-end ml-3">Online Exam Portal</div>
           {/* </div> */}
           <div className="flex gap-5 justify-between">
+            <a href="https://www.facebook.com/">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/fd4fd63cf96ccae2c93af26935d05f50bd0362edbdb6fdc3c32b81c85c3bc130?"
               className="aspect-square w-[25px]"
             />
+            </a>
+            <a href="https://www.instagram.com/">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/33a7390144d2d2a4a6349c5c88a1651e2025a838d3550a3b716007a223d51192?"
               className="aspect-square w-[25px]"
             />
+            </a>
           </div>
         {/* </div> */}
       </div>

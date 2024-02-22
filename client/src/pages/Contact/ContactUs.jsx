@@ -9,10 +9,7 @@ export default function ContactUs() {
         <span className="font-bold">welcome</span>. Please ContactUs
         <br />
       </div>
-      <div className="mt-11">
-        <br />
-        Full Name:
-      </div>
+      <div className="mt-11">Full Name:</div>
       <input type="text" className="mt-2 border-2 border-red-400"  />
       <div className="mt-7">Email id:</div>
       <input type="text"  className="mt-2 border-2 border-red-400" />

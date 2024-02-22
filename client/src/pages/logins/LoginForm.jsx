@@ -22,6 +22,9 @@ export default function LoginForm() {
                   navigate("/");
                   
               }
+              else{
+                alert("You Enter a incrrect Data")
+              }
           })
           .catch(err => console.log(err))
         }
@@ -44,10 +47,10 @@ export default function LoginForm() {
       <form onSubmit={LoginSubmit}>
       <div className="mt-5">Email ID:</div>
       {/* <div className="shrink-0 mt-5 bg-neutral-200 h-[40px]" /> */}
-      <input type="text" className="mt-2 border-2 border-red-400 " onChange={(e)=>setEmail(e.target.value)}/>
+      <input type="text" className="mt-2 border-2 border-red-400 w-full" onChange={(e)=>setEmail(e.target.value)}/>
       <div className="mt-5">Password:</div>
       {/* <div className="shrink-0 mt-5 bg-neutral-200 h-[40px]" /> */}
-      <input type="text" className="mt-2 border-2 border-red-400" onChange={(e)=>setPass(e.target.value)} />
+      <input type="text" className="mt-2 border-2 border-red-400 w-full" onChange={(e)=>setPass(e.target.value)} />
       <div className="mt-5 text-base">Forgot Password?</div>
       <div className="justify-center items-center px-36 py-2 mt-6 text-white  bg-sky-500">
         <button>Login</button>
