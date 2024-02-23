@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import "../Exam/button.css"
 
 export default function Questions() {
 
@@ -43,64 +44,64 @@ export default function Questions() {
                 {Answer:"12",isCorrect:false}
             ]
         },
-        {
-            Question:"What is the correct way to write a JavaScript array?",
-            AnswerText:[
-                {Answer:"[1, 2, 3]",isCorrect:true},
-                {Answer:"{1, 2, 3}",isCorrect:false},
-                {Answer: "(1, 2, 3)",isCorrect:false},
-                {Answer:"<1, 2, 3>",isCorrect:false}
-            ]
-        },
-        {
-            Question:"What keyword is used to select data from a MySQL database?",
-            AnswerText:[
-                {Answer:"SELECT",isCorrect:true},
-                {Answer:"PICK",isCorrect:false},
-                {Answer:"GET",isCorrect:false},
-                {Answer:"FETCH",isCorrect:false}
-            ]
-        },
-        {
-            Question:"What is the default port number for MySQL?",
-            AnswerText:[
-                {Answer:"3306",isCorrect:true},
-                {Answer:"8080",isCorrect:false},
-                {Answer:"5432",isCorrect:false},
-                {Answer:"27017",isCorrect:false}
-            ]
-        },
-        {
-            Question:"Which keyword is used to declare a class in C#?",
-            AnswerText:[
-                {Answer:"class",isCorrect:true},
-                {Answer:"struct",isCorrect:false},
-                {Answer:"interface",isCorrect:false},
-                {Answer:"void",isCorrect:false}
-            ]
-        },
-        {
-            Question:"What is the purpose of the 'using' statement in C#?",
-            AnswerText:[
-                {Answer:"To import namespaces",isCorrect:true},
-                {Answer:"To define a class",isCorrect:false},
-                {Answer:"To declare variables",isCorrect:false},
-                {Answer:"To create objects",isCorrect:false}
-            ]
-        },{
-            Question:"What is the output of the following code?\n\nconsole.log(1 + '1');",
-            AnswerText:[
-                {Answer:"11",isCorrect:true},
-                {Answer:"2",isCorrect:false},
-                {Answer:"undefined",isCorrect:false},
-                {Answer:"null",isCorrect:false}
-            ]
-        }
+        // {
+        //     Question:"What is the correct way to write a JavaScript array?",
+        //     AnswerText:[
+        //         {Answer:"[1, 2, 3]",isCorrect:true},
+        //         {Answer:"{1, 2, 3}",isCorrect:false},
+        //         {Answer: "(1, 2, 3)",isCorrect:false},
+        //         {Answer:"<1, 2, 3>",isCorrect:false}
+        //     ]
+        // },
+        // {
+        //     Question:"What keyword is used to select data from a MySQL database?",
+        //     AnswerText:[
+        //         {Answer:"SELECT",isCorrect:true},
+        //         {Answer:"PICK",isCorrect:false},
+        //         {Answer:"GET",isCorrect:false},
+        //         {Answer:"FETCH",isCorrect:false}
+        //     ]
+        // },
+        // {
+        //     Question:"What is the default port number for MySQL?",
+        //     AnswerText:[
+        //         {Answer:"3306",isCorrect:true},
+        //         {Answer:"8080",isCorrect:false},
+        //         {Answer:"5432",isCorrect:false},
+        //         {Answer:"27017",isCorrect:false}
+        //     ]
+        // },
+        // {
+        //     Question:"Which keyword is used to declare a class in C#?",
+        //     AnswerText:[
+        //         {Answer:"class",isCorrect:true},
+        //         {Answer:"struct",isCorrect:false},
+        //         {Answer:"interface",isCorrect:false},
+        //         {Answer:"void",isCorrect:false}
+        //     ]
+        // },
+        // {
+        //     Question:"What is the purpose of the 'using' statement in C#?",
+        //     AnswerText:[
+        //         {Answer:"To import namespaces",isCorrect:true},
+        //         {Answer:"To define a class",isCorrect:false},
+        //         {Answer:"To declare variables",isCorrect:false},
+        //         {Answer:"To create objects",isCorrect:false}
+        //     ]
+        // },{
+        //     Question:"What is the output of the following code?\n\nconsole.log(1 + '1');",
+        //     AnswerText:[
+        //         {Answer:"11",isCorrect:true},
+        //         {Answer:"2",isCorrect:false},
+        //         {Answer:"undefined",isCorrect:false},
+        //         {Answer:"null",isCorrect:false}
+        //     ]
+        // }
     ]
 
     const [currentQuestion,setCurrentQuestion]=useState(0)
     const [score,setScore]=useState(0)
-    const [showScore,setShowScore]=useState(0)
+    const [showScore,setShowScore]=useState(false)
 
 
    const  checkAnswer=(isCorrect)=>{
@@ -108,14 +109,12 @@ export default function Questions() {
 
     if(isCorrect){
         setScore(score+1);
-        
     
     }
 
     const nextQuestion=currentQuestion+1;
     if(nextQuestion<Questionbank.length){
         setCurrentQuestion(nextQuestion);
-        
     }
     else{
         setShowScore(true);
@@ -131,7 +130,7 @@ console.log(Questionbank)
                 <div>
                 <div className="text-2xl font-bold font-mono">Your Score Is  :- <span className="text-red-600">{score}</span></div>
                 </div>
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 mt-5 rounded"><Link to="/">back to home</Link></button>
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 mt-5 rounded"><Link to="/Home">back to home</Link></button>
             </div>
         ):(
             <>
@@ -148,7 +147,7 @@ console.log(Questionbank)
                     <div className="flex items-center">
                         <div>
                     {/* <input type="radio"/> */}
-                    <input type="radio" onClick={()=>checkAnswer(answer.isCorrect)}/>&nbsp;{answer.Answer}
+                    <button className="option-btn" onClick={()=>checkAnswer(answer.isCorrect)}>&nbsp;{answer.Answer}</button>
                     {/* </input> */}
                     </div>
                    </div>

@@ -15,6 +15,15 @@ app.post('/',(req,res)=>{
     .catch(err=>res.json(err))
 })
 
+// app.get('/users', async (req, res) => {
+//     try {
+//       const users = await rkuuser.find();
+//       res.json(users);
+//     } catch (error) {
+//       console.error('Error retrieving users', error);
+//       res.status(500).json({ message: 'Server error' });
+//     }
+//   });
 
 app.post('/Login',(req,res)=>{
     const{email,pass} =req.body;

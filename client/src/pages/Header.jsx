@@ -1,4 +1,5 @@
 // import React from 'react'
+// import { Link } from "react-router-dom"
 export default function Header() {
   return (
     <>
@@ -32,7 +33,7 @@ export default function Header() {
       </div>
       <div className="flex flex-col justify-center items-end px-16 py-0 w-full text-1xl font-medium text-white whitespace-nowrap bg-neutral-900 max-md:px-5 max-md:max-w-full">
         <div className="flex gap-5 justify-between items-center mt-2 mr-32 mb-2.5 max-w-full w-[700px] max-md:flex-wrap max-md:mr-2.5">
-          <a  href="/">Home</a>
+          <a  href="/Home">Home</a>
           {/* <div className="flex gap-1 justify-between self-stretch my-auto max-md:flex-wrap max-md:max-w-full"> */}
             <a  href="/NavbarPractice">Practice</a>
             <a  href="/StartExam">Exam</a>
@@ -40,7 +41,7 @@ export default function Header() {
             <a  href="/ContactUs">ContactUs</a>
           {/* </div> */}
           <div className="justify-center self-stretch px-9 py-3 bg-sky-600 max-md:px-5">
-          <a href="/Reg">SignUp</a>
+          <a href="/UserProfile">Profile</a>
           </div>
         </div>
       </div>

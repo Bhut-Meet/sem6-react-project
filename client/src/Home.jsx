@@ -1,10 +1,13 @@
 // import React from 'react'
 // import Footer from './pages/Footer';
 // import Header from './pages/Header';
+// import 'bootstrap/dist/css/bootstrap. css';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 import { Link } from "react-router-dom";
 
 export default function Home() {
+  const now=100;
   return (
     <>
     <div className="flex flex-col bg-white">
@@ -66,7 +69,7 @@ export default function Home() {
       </div> */}
       <div className="flex flex-col px-14 mt-8 w-full max-md:px-5 max-md:max-w-full">
         <div className="text-2xl text-black max-md:max-w-full">
-          What should you know before starting Practice and Exam?
+          {/* What should you know before starting Practice and Exam? */}
         </div>
         <div className="mt-7 ml-5 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
@@ -143,10 +146,8 @@ export default function Home() {
             Use of Programming and Scripting languages in present Time
           </div>
           <div className="mt-20 text-2xl text-white max-md:mt-10 max-md:max-w-full">
-          <div className="mb-5 text-2xl font-medium dark:text-white">Java Script</div>
-<div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-  <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
-</div>
+          <div className="mb-5 text-2xl  dark:text-white">Java Script</div>
+          <progress style={{width:"100%",height:"15px"}} value={0.7} />
           </div>
           <div className="flex overflow-hidden relative flex-col justify-center items-center self-center pr-12 mt-6 w-full min-h-[25px] stroke-[25px] stroke-white max-md:pr-5 max-md:max-w-full">
             <img
@@ -163,9 +164,7 @@ export default function Home() {
           <div className="mt-7 mb-5 text-2xl text-white max-md:max-w-full">
             Python
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-            <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
-          </div>
+          <progress style={{width:"100%"}} value={0.9} />
           <div className="flex overflow-hidden relative flex-col justify-center items-start self-center pr-16 mt-7 w-full min-h-[25px] stroke-[25px] stroke-white max-md:pr-5 max-md:max-w-full">
             <img
               loading="lazy"
@@ -179,15 +178,11 @@ export default function Home() {
             />
           </div>
           <div className="mt-7 text-2xl text-white max-md:max-w-full">Java</div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-            <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
-          </div>
+          <progress style={{width:"100%"}} value={0.5} />
           <div className="mt-24 mb-5 text-2xl text-white max-md:mt-10 max-md:max-w-full">
             C#
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-            <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
-          </div>
+          <progress style={{width:"100%"}} value={0.7} />
           <div className="flex overflow-hidden relative flex-col justify-center items-start self-center pr-16 mt-7 w-full min-h-[25px] stroke-[25px] stroke-white max-md:pr-5 max-md:max-w-full">
             <img
               loading="lazy"
@@ -201,9 +196,7 @@ export default function Home() {
             />
           </div>
           <div className="mt-7  mb-5 text-2xl text-white max-md:max-w-full">PHP</div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-            <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
-          </div>
+          <progress style={{width:"100%"}} value={0.6} />
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/19893fc067dfc0ff13f007adbe748acdd4c343b09625d7ff07d9a55cc6096d6e?"
@@ -212,9 +205,11 @@ export default function Home() {
           <div className="mt-8 mb-5 text-2xl text-white max-md:max-w-full">
             TypeScript
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+          {/* <ProgressBar variant="danger" now={now} label={`${now}%`} ></ProgressBar> */}
+          <progress style={{width:"100%"}} value={0.8} />
+          {/* <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
             <div className="bg-red-600 h-2.5 rounded-full dark:bg-gray-300" ></div>
-          </div>
+          </div> */}
           <div className="flex overflow-hidden relative flex-col justify-center items-start self-center pr-16 mt-5 w-full min-h-[25px] stroke-[25px] stroke-white max-md:pr-5 max-md:max-w-full">
             <img
               loading="lazy"
@@ -295,7 +290,7 @@ export default function Home() {
                 className="mt-5 max-w-full aspect-square w-[150px]"
               />
               <div className="mt-7">
-                We re comming with more languages like pHp,RUBY,Python
+                We re comming with more languages like RUBY
                 <br />
                 We always keep update the questons so you can get more Idea
                 about questoins

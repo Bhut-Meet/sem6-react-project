@@ -1,4 +1,3 @@
-
 import './App.css'
 import Home from './Home'
 import Footer from './pages/Footer';
@@ -17,6 +16,7 @@ import JavaScript from './pages/Practice/Java Script/JavaScript';
 import Mysql from './pages/Practice/Mysql/Mysql';
 import Csharp from './pages/Practice/Csharp/Csharp';
 import NavbarPractice from './pages/NavbarPractice/NavbarPractice';
+import UserProfile from './pages/Profile';
 
 function App() {
 
@@ -25,9 +25,9 @@ function App() {
    <Header></Header>
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Home></Home>}></Route>
+      <Route path='/Home' element={<Home></Home>}></Route>
       <Route path='/Login' element={<LoginForm></LoginForm>}></Route>
-      <Route path='/Reg' element={<Reg></Reg>}></Route>
+      <Route path='/' element={<Reg></Reg>}></Route>
       <Route path='/NavbarPractice' element={<NavbarPractice></NavbarPractice>}></Route>
       <Route path='/C' element={<C></C>}></Route>
       <Route path='/Cplusepluse' element={<Cplusepluse></Cplusepluse>}></Route>
@@ -39,6 +39,7 @@ function App() {
       <Route path='/Exam' element={<Exam></Exam>}></Route>
       <Route path='/Rules' element={<Rules></Rules>}></Route>
       <Route path='/ContactUs' element={<ContactUs></ContactUs>}></Route>
+      <Route path='/UserProfile' element={<UserProfile></UserProfile>}></Route>
     </Routes>
     </BrowserRouter>
     <Footer></Footer>

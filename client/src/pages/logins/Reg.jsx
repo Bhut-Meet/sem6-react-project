@@ -5,9 +5,8 @@ import {Link} from "react-router-dom"
 import axios from "axios"
 import { useNavigate } from 'react-router-dom';
 
+
 export default function Reg() {
-
-
 
   const [name,setName]=useState()
   const [email,setEmail]=useState()
@@ -39,22 +38,25 @@ export default function Reg() {
       </div>
       <form onSubmit={RegistrationSubmit}>
       <div className="mt-1 mb-1">Full Name:</div>
-      <input type="text" className="mt-2 border-2 border-red-400 w-full" onChange={(e)=> setName(e.target.value)}/>
+      <input type="text" required className="mt-2 border-2 border-red-400 w-full" onChange={(e)=> setName(e.target.value)}/>
       <div className="mt-6 mb-1">Email id:</div>
-      <input type="email" className="mt-2 border-2 border-red-400 w-full"  onChange={(e)=> setEmail(e.target.value)}/>
+      <input type="email" required className="mt-2 border-2 border-red-400 w-full"  onChange={(e)=> setEmail(e.target.value)}/>
       <div className="mt-6 mb-1">Mobile No:</div>
-      <input type="text" className="mt-2 border-2 border-red-400 w-full" onChange={(e)=> setNum(e.target.value)} />
+      <input type="text" required className="mt-2 border-2 border-red-400 w-full" onChange={(e)=> setNum(e.target.value)} />
       <div className="mt-6 mb-1">Password:</div>
-      <input type="text" className="mt-2 border-2 border-red-400 w-full" onChange={(e)=> setPass(e.target.value)} />
+      <input type="text" required className="mt-2 border-2 border-red-400 w-full" onChange={(e)=> setPass(e.target.value)} />
       {/* <div className="mt-6 mb-1 whitespace-nowrap">Conform Password:</div> */}
       {/* <input type="text" className="mt-2 border-2 border-red-400"  onChange={(e)=> setName(e.target.value)}/> */}
-      {/* <div className="justify-center items-center px-16 py-3.5 mt-20 text-white whitespace-nowrap bg-sky-500"> */}
+      {/* <div className="justify-center items-center px-16  py-3.5 mt-20 text-white whitespace-nowrap bg-sky-500"> */}
       <div className="justify-center items-center px-36 py-2 mt-6 text-white  bg-sky-500">
        <button>SignUp</button>
       </div>
-      <div className="justify-center items-center px-32 py-2 mt-6 text-white  bg-sky-500">
-       <Link  to="/Login">Admin Login</Link>
+      <div className="justify-center items-center px-36 py-2 mt-6 text-white  bg-sky-500">
+       <Link to="/Login">Login</Link>
       </div>
+      {/* <div className="justify-center items-center px-32 py-2 mt-6 text-white  bg-sky-500">
+       <Link  to="/Login">Admin Login</Link>
+      </div> */}
       </form>
     </div>
     </div>

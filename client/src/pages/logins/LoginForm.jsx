@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 
 
@@ -19,7 +19,7 @@ export default function LoginForm() {
           axios.post('http://localhost:3001/Login',{email,pass})
           .then(result => {console.log(result)
               if(result.data === "success"){
-                  navigate("/");
+                  navigate("/Home",{state:{id:pass,email:email}});
                   
               }
               else{
@@ -57,7 +57,7 @@ export default function LoginForm() {
       </div>
       <div className="mt-5 text-base">New user?click Here for</div><br />
       <div className="justify-center items-center px-36 py-2 mt-6 text-white w bg-sky-500">
-      <Link  to="/Reg">SignUp</Link>
+      <a  href="/Reg">SignUp</a>
       </div>
       </form>
     </div>

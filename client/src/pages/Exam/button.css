@@ -1,0 +1,46 @@
+/* .option-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .option-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .option-btn:active {
+    background-color: #3e8e41;
+  }
+   */
+
+   /* styles.css */
+
+.option-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
+  
+  .option-btn:hover {
+    background-color: #14d91d; /* Darker green when hovered over */
+  }
+  
+  .option-btn:active {
+    background-color: #3e8e41; /* Even darker green when active (clicked) */
+  }
+  
